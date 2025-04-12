@@ -1,0 +1,70 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: whitesmoke;
+  padding: 30px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #d5b8ff;
+}
+
+h1 {
+  color: #7851a9;
+  margin-bottom: 10px;
+}
+
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #7851a9;
+  color: #7851a9;
+}
+
+button {
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7851a9;
+  color: white;
+}
+
+#messageBox {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: none;
+}
+
+.message-error {
+  background-color: #f2f2f2;
+  color: red;
+  font-weight: bold;
+  display: block;
+}
+
+.message-success {
+  background-color: #f2f2f2;
+  color: #7851a9;
+  font-weight: bold;
+  display: block;
+}
+
+.driver-card {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: 1px solid #cdb8ef;
+  text-align: left;
+}

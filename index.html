@@ -1,0 +1,33 @@
+<!--
+I chose this topic because I like Formula 1 and I'm a big fan of the sport.
+I wanted to create something fun and related to what I enjoy.
+This project uses the Ergast F1 API to get driver data by year.
+API Source: https://ergast.com/mrd/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 Driver Lookup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>F1 Driver Lookup</h1>
+    <p>Select the season (year):</p>
+
+      <form id="driverForm">
+        <input type="text" id="yearInput" placeholder="e.g. 2023"/>
+        <button type="submit">Get Driver Data</button>
+        <button type="button" id="resetBtn">Clear Driver Data</button>
+      </form>
+
+    <div id="messageBox"></div>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
